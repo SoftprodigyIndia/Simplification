@@ -1,0 +1,43 @@
+/* Fonts settings
+--------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../font/glyphicons-halflings-regular.eot');
+  src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../font/glyphicons-halflings-regular.woff') format('woff'), url('../font/glyphicons-halflings-regular.ttf') format('truetype'), url('../font/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+
+/* Webfont: Lato-Bold */
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../font/Raleway-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../font/Raleway-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/Raleway-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../font/Raleway-Bold.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../font/Raleway-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../font/Raleway-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/Raleway-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/Raleway-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../font/Raleway-Light.eot'); /* IE9 Compat Modes */
+    src: url('../font/Raleway-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/Raleway-Light.woff') format('woff'), /* Modern Browsers */
+         url('../font/Raleway-Light.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}

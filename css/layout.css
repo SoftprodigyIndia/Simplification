@@ -1,0 +1,387 @@
+/* --------------------------------------------------------------General Styling------------------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: 'Raleway-Regular';
+	font-size:12px;
+}
+
+ol, ul {list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline:none;
+}
+
+body { background:#f6f6f6; line-height: 1.42857143;}
+
+/* --------------------------------------------------------------General Styling Ends----------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Index Page Starts------------------------------------------------------------------------- */
+
+.Main { height:auto; display:block; width: 100%; padding:0; margin:0;}
+.Full { max-width: 1634px; display:block; height:auto; margin:0 auto;}
+.container { max-width:1170px;}
+.top-header { height:auto; width:100%; padding: 25px 0;}
+.top-link { width: 100%; text-align:right;}
+.logo { text-align:center; }
+
+
+/* --------------------------------------------------------------Navigation Start------------------------------------------------------------------------- */
+
+.navigation { padding: 20px 0;}
+.navigation .nav { float:right;}
+.navigation .nav li { margin-right: 40px;}
+.navigation .nav li:last-child { margin:0;}
+.navigation .nav li a { font-size:16px; color:#000; padding: 20px; float: right; font-weight:600 }
+.navigation .nav li a:hover { background:#ffeb00;}
+.navigation .nav li.dropdown a {font-size:16px; color:#2b2b2b; padding: 0px 8px; float: right;}
+.navigation .nav li:last-child a { }
+.navigation .nav > li + li:before {}
+
+/* --------------------------------------------------------------Navigation End------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption h3 { margin: 0 0 5px 0; font-size: 60px; color:#000; padding: 0 15px; background:#ffeb00; text-transform:uppercase;  font-family: 'Raleway-Bold'; display:inline-block;}
+.carousel-caption p { margin:0 0 2px 0; font-size: 22px; color:#fff; padding: 0 15px; background:#3f3f44; display:inline-block;}
+.carousel-caption p.caption1 { margin:10px 0 2px 0}
+.carousel-control { width: auto !important; opacity: 1 !important;}
+.carousel-control.left { background: none !important; left:2px !important;}
+.carousel-control.right { background: none !important; right: 2px !important;}
+.carousel-control .indicators { background: #000; padding: 30px 10px}
+.left.carousel-control .indicators { left:0; top: 40%; position:absolute;}
+.right.carousel-control .indicators { right:0; top: 40%; position:absolute;}
+.btn-slider { position:absolute; left:0; top: 58%;}
+.btn-slider a { background: #000; border-bottom: 3px solid #ffeb00; padding: 5px 30px; color:#fff; display:inline-block; font-size: 24px;}
+.btn-slider a:hover { color: #FFEB00;}
+.btn-slider a:focus {color: #FFEB00; text-decoration:none; outline:none;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Mid-Section Starts--------------------------------------------------------------------- */
+
+
+.mid-section { padding: 80px 0;}
+.head-txt { text-align:center;}
+.head-txt h3 { margin: 0 0 10px 0; color:#424147; font-size:35px; font-weight: 600; text-transform:uppercase;}
+.head-txt p { color: #424147l; font-size:24px; margin:0;}
+.redesign-sect,.w-development-sect,.w-design-sect,.w-graphic-sect { margin: 40px 0 0;}
+.p-detail { background:#3f3f44; padding: 15px 20px;}
+.p-detail h3 { font-size: 22px; color:#fff; font-family: 'Raleway-Light'; margin:0}
+.box-yellow { background:#ffeb00; padding: 50px 30px 10px; text-align: center;}
+.box-yellow p { color: #000; font-size: 21px; letter-spacing: 1px; margin: 28px 0 0;}
+.p-detail1 {  background:#3f3f44; padding: 19px 20px; text-align:center;}
+.p-detail1 p { font-size: 14px; font-family: 'Raleway-Light'; color:#fff; margin:0}
+.w-design-sect .box-yellow p {margin: 37px 0 0;}
+.w-graphic-sect .box-yellow p {margin: 17px 0 0;}
+
+
+/* --------------------------------------------------------------Mid-Section Ends--------------------------------------------------------------------- */
+
+.work-section,.client-section { text-align:center;}
+.work-section a,.client-section a { background:#403f46; padding: 5px 35px; display:inline-block; margin: 0 auto; color:#ffea00; text-transform:uppercase; font-size: 18px; font-family: 'Raleway-Bold';}
+.work-section a:hover,.client-section a:hover { color:#fff;}
+.work-section a:focus,.client-section a:focus { color:#fff; text-decoration:none; outline:none;}
+.work-heading {text-align:center;}
+.work-heading h3 { color:#424146; font-size: 16px; margin:35px 0;}
+
+
+
+/* --------------------------------------------------------------Effect ------------------------------------------------------------------------------- */
+
+.work-imgs { margin-bottom: 30px;}
+
+.posts {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.posts li {
+    background-size: cover;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+	transition: all 1.1s;
+}
+
+.posts img {
+    height: 100%;
+    left: 0;
+    position: relative;
+    transition: all 1.1;
+    width: 100%;
+}
+
+.posts li:hover img {
+    left: -15%;
+}
+
+.posts li:hover div {
+    left: 15%;
+}
+
+.posts div {
+    background-color: #f3f3f3;
+    bottom: 0;
+    left: 100%;
+    padding: 26px 19px 26px 28px;
+    position: absolute;
+    top: 0;
+    width: 85%;
+	border: 1px solid #e5e5e5;
+	transition: all 1.1s;
+}
+
+.posts div a {background:#403f46; padding: 8px 15px; display:inline-block; margin: 0 auto; color:#ffea00; text-transform:uppercase; font-size: 14px; font-family: 'Raleway-Bold';}
+
+
+.posts h2 {
+    font-size: 20px;
+    margin: 0 0 19px;
+	color: #282828
+}
+
+.posts p { font-size: 16px; color: #444444;}
+
+
+
+
+/* --------------------------------------------------------------Effect ------------------------------------------------------------------------------- */
+
+.client-section { margin-top: 50px;}
+
+
+/* --------------------------------------------------------------ajax-slider Section Start------------------------------------------------------------- */
+
+.ajax-slider { margin-bottom: 100px;}
+
+.jcarousel-wrapper {
+    
+    margin: 0 auto;
+    position: relative;
+	width: 100%;
+	padding: 0 90px;
+}
+
+.jcarousel {
+    height: auto;
+    overflow: hidden;
+    margin:0 auto;
+    width: 100%;
+}
+
+.jcarousel ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 20000em;
+}
+
+.jcarousel ul li {
+    float: left;
+    height: auto;
+    margin-right: 0px;
+    width: 170px !important;
+}
+
+.jcarousel img {
+    max-height: 100px;
+}
+
+.jcarousel .loading {
+    text-align: center;
+    line-height: 90px; /* Fake vertical aligning */
+}
+
+/** Carousel Controls **/
+
+/*.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 35px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}*/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    background: #000;
+	padding:10px 10px;
+	display:inline-block;
+	position:absolute;
+	
+}
+
+.jcarousel-control-prev { left:1px ;top: 10%;}
+.jcarousel-control-next { right: 1px; top: 10%;}
+
+/*.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}*/
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+.jcarousel ul li img { max-width: 100%;}
+
+/* --------------------------------------------------------------ajax-slider Section Ends------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Footer Starts----------------------------------------------------------------------- */
+
+.footer { background:#3f3f44; padding: 25px 0; position:relative;}
+.top-head { }
+.top-head h3 { font-size: 18px; font-family: 'Raleway-Bold'; color: #fff; margin: 0 0 15px 0;}
+.about-sect p,.folow-sect p { font-size: 13px; color:#fff; line-height: 22px;}
+.latest-projects ul { margin: 0; }
+.latest-projects ul li { margin: 0 0 15px 0;} 
+.latest-projects ul li a { color:#fff; font-size: 13px;}
+.latest-projects ul li a:hover { color:#ffea00;}
+.latest-projects ul li a:focus { color:#ffea00; text-decoration:none; outline:none;}
+.contact-info ul { margin:0;}
+.contact-info ul li { margin: 0 0 20px 0;}
+.contact-info ul li:first-child { margin:0}
+.contact-info ul li span { display: inline-block;}
+.contact-info ul li p {color:#fff; font-size: 13px; display:inline-block; vertical-align:top; margin-left: 18px;}
+.contact-info ul li p span { margin: 0 0 0 47px;}
+.contact-info ul li p a { text-decoration:none; color:#ffea00; font-size: 13px;}
+.folow-sect ul.social-icons { margin: 20px 0  0 0;}
+.folow-sect ul.social-icons li { display:inline-block; margin-left: 5px;}
+.folow-sect ul.social-icons li:first-child { margin:0;}
+.folow-sect ul.social-icons li a { display:inline-block;}
+
+.footer > a.scrollToTop { background-image: url("../img/gotop.png"); background-position: 0 bottom;font-size: 25px; height: 36px;left:50%; position:absolute; top: -36px; transform: translateX(-50%); width: 27px; z-index: 5; background-repeat:no-repeat;}
+.footer > a.scrollToTop:hover { border:none;}
+.footer > a.scrollToTop:focus { border:none; outline:none;}
+.footer p.top-query {color: #444; font-size: 14px; left: auto; position: absolute; left:50%; top: -60px; transform: translateX(-50%); z-index: 5;}
+
+/* --------------------------------------------------------------Footer Ends----------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------Copyright Section Starts----------------------------------------------------------------- */
+
+.copyright-block { padding:20px 0; background:#000000;}
+.copyright-txt { text-align:left;}
+.copyright-txt p { font-size: 16px; color:#fff;}
+.foot-nav { text-align:right;}
+.foot-nav ul { margin:0;}
+.foot-nav ul li { display:inline-block; margin-left: 30px;}
+.foot-nav ul li:first-child { margin:0}
+.foot-nav ul li a { text-transform:none; font-size: 16px; color:#fff; font-weight: 500;}
+.foot-nav ul li a:hover { color: #dadada; }
+/* --------------------------------------------------------------Copyright Section Ends----------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Index Page Ends------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------About Us Starts------------------------------------------------------------------------ */
+
+.mid-content { background: url(../img/mid-heading.png) no-repeat; padding: 40px 0;}
+.top-btn-main a { background: #403f44; padding:  5px 50px 5px 10px; color:#ffea00; font-size: 35px; display:inline-block; text-transform:uppercase; font-weight:600}
+.top-btn-main a:hover { color:#fff;}
+.top-btn-main a:focus { text-decoration:none; color:#fff; outline:none;}
+.team-intro  { padding: 40px 0; margin:0;}
+.txt-right {}
+.txt-right h2 { color:#403f44; font-size: 30px; font-weight: 600; text-transform:uppercase; margin: 0 0 20px 0;}
+.txt-right h4 { font-size: 16px; color:#403f44; font-weight: 600; margin: 0 0 20px 0;}
+.txt-right p { color:#403f44; font-size: 14px; line-height: 24px;}
+.team-heading h3 { margin: 35px 110px;}
+/*.team-member .member-pic div { position:relative; border-radius: 50% 50% 50% 50%;}*/
+.team-member .round-container .mem-img { overflow:hidden; border: 6px solid #ffeb00; border-radius: 50% 50% 50% 50% ;position:relative;}
+.mem-img img { position:relative; }
+.mem-img div { position:absolute; left: 100%; top:0; bottom:0; padding: 30px 25px; background:#f3f3f3; border-radius: 50% 50% 50% 50%;transition: all 1.1s; width: 90%; opacity: .9}
+.mem-img div h3 { font-size: 19px; font-family: 'Raleway-Bold'; margin: 0 0 10px 0; color: #444444}
+.mem-img div p { font-size: 14px; margin:0; line-height: 20px; color: #444444; font-weight: 500;}
+.mem-img:hover div { left: 10%;}
+.mem-post { background:#403f46; text-align:center; padding: 2px 3px; margin: 20px 0 0;}
+.mem-post p { font-size: 19px; color:#ffea00; margin:0; font-weight: 600; text-transform:uppercase;}
+.down-content { margin: 75px 0;}
+.team-sect { margin: 40px 0;}
+.feature1 { text-align:center; padding: 40px 0 0;}
+.feature-icon { text-align:center; min-height: 50px;}
+.feature-icon img { margin: 0 auto}
+.feature1 h3 { font-size: 16px; color:#403f44; font-family: 'Raleway-Bold'; text-transform:uppercase; }
+.feature1 p { font-size: 14px; color:#403f44; line-height: 21px; margin:0;}
+
+/* --------------------------------------------------------------About Us Ends------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Contact Us Starts------------------------------------------------------------------------ */
+.contact-map { margin:40px 0; padding: 0 10px;}
+.con-map {border: 5px solid #eeeeee; min-height: 600px;}
+.cont-adrss {padding: 20px 0;}
+.addres-sect {  width:100%; }
+.contact-form { margin-bottom: 50px;}
+.addres-sect h4 { color:#444444; font-size:20px; margin:0; }
+.phne {border-bottom: 1px solid #e5e5e5;  padding: 20px 0;}
+.phne span { color:#cccccc; margin: 4px 10px 0 0; float:left;}
+.phne p { color:#666666; font-family: 'Raleway-Light'; font-size:14px; margin:0; overflow:hidden; }
+.mail p a {color:#666666; font-family: 'Raleway-Light'; font-size:14px;}
+.address { border:none;}
+.addres-sect form { padding: 40px 0 20px;}
+.u-name { float: left; width: 48%; margin-right:20px;}
+.u-email { margin:0;}
+.u-name p { color:#444; font-size:14px; margin:0 0 20px 0; font-weight: 500;}
+.txtbox { width: 99%; border: 1px solid #ebebeb; box-shadow: 1px 1px 1px rgba(0,0,0,.1); padding: 10px 15px;}
+.u-message { width: 100%; margin: 20px 0 0 0;}
+.u-message .msg-box { height: 170px; resize:none;}
+.btn-right { width: 100%; text-align:right; padding: 20px 0; border:none; clear:both;}
+.buttn { padding: 10px 28px; border-radius: 5px 5px 5px 5px; display:inline-block; border:none;}
+.grey-btn { color:#ffeb00; font-size:16px; background:#434446; font-weight:600; }
+.grey-btn:hover { background: #565656; color:#fff; border:none}
+.grey-btn:focus { background: #565656; color:#fff; text-decoration:none; border:none}
+.contact-form .top-head h3 {background:#403f46; padding: 5px 15px; display:inline-block; margin: 0 auto; color:#ffea00; text-transform:uppercase; font-size: 18px; }
+.contact-form ul { margin: 40px 0 0 0;}
+.contact-form ul li { margin: 0 0 20px 0;}
+.contact-form ul li:first-child { margin: 0;}
+.contact-form ul li span { display: inline-block;}
+.contact-form ul li p {color:#444; font-size: 14px; display:inline-block; vertical-align:top; margin-left: 18px;}
+.contact-form ul li p span { margin: 0 0 0 49px; font-size: 14px}
+.contact-form ul li p a { text-decoration:underline; color:#565656; font-size: 14px;}
+
+/* --------------------------------------------------------------Contact Us Ends------------------------------------------------------------------------ */
+

@@ -1,0 +1,489 @@
+
+/*-- Media Screen Style Sheet  -- */
+
+@media (max-width: 1280px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:13%; top:84px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:20px; padding: 0 5px; margin:10px 0 0;}
+.carousel-caption p.caption1 { margin:11px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:48px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 24px; padding: 10px 25px;}
+.btn-slider { left:0; top:63%;}
+.p-detail h3 { font-size: 18px;}
+.box-yellow { padding: 20px 30px 10px;}
+.box-yellow p { font-size: 20px; margin:57px 0 0;}
+.p-detail1 { padding: 16px 20px;}
+.w-design-sect .box-yellow p { margin: 65px 0 0;}
+.w-graphic-sect .box-yellow p { margin: 43px 0 0;}
+.folow-sect ul.social-icons li { margin-left: 3px;}
+.media, .media-body { overflow:visible;}
+.mem-post p { font-size: 14px;}
+.top-btn-main a { font-size: 26px;}
+	
+
+	}
+
+@media (max-width: 1200px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:11%; top:55px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:5px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:44px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 22px; padding: 10px 25px;}
+.btn-slider { left:0; top:65%;}
+.p-detail h3 { font-size: 18px;}
+.box-yellow { padding: 20px 30px 10px;}
+.box-yellow p { font-size: 16px; margin:20px 0 0;}
+.p-detail1 { padding: 16px 20px;}
+.w-design-sect .box-yellow p { margin: 29px 0 0;}
+.w-graphic-sect .box-yellow p { margin: 8px 0 0;}
+.folow-sect ul.social-icons li { margin-left: 3px;}
+.media, .media-body { overflow:visible;}
+.mem-post p { font-size: 14px;}
+.top-btn-main a { font-size: 26px;}
+	
+
+	}
+
+@media (max-width: 1024px) {
+	
+
+.navigation .nav li { margin-right: 35px;}
+.navigation .nav li a { padding: 15px;}
+.carousel-caption { left:9%; top:53px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:44px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 16px; padding: 10px 25px;}
+.btn-slider { left:0; top:62%;}
+.p-detail h3 { font-size: 20px;}
+.box-yellow { padding: 20px 30px 10px;}
+.box-yellow p { font-size: 16px; margin:22px 0 0;}
+.p-detail1 { padding: 16px 20px;}
+.w-design-sect .box-yellow p { margin: 31px 0 0;}
+.w-graphic-sect .box-yellow p { margin: 10px 0 0;}
+.folow-sect ul.social-icons li { margin-left: 3px;}
+.media, .media-body { overflow:visible;}
+.mem-post p { font-size: 14px;}
+.top-btn-main a { font-size: 26px;}
+	
+
+	}
+
+@media (min-width: 768px) and (max-width:1002px) {
+	
+.navigation .nav li a {font-size: 12px; padding: 10px;}
+.navigation .nav li { margin-right: 20px}
+.carousel-caption { left:9%; top:34px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:18px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:34px; text-shadow:none; padding: 0 10px;}
+.btn-slider a { font-size: 14px; padding: 10px 12px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 100%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+.news-control { width:8%;}
+.mid-section { padding: 30px 0}
+.head-txt h3 { font-size: 24px; margin:0 0 5px;}
+.head-txt p { font-size: 18px;}
+.custom-col-sm { width: 50%;}
+.redesign-sect, .w-development-sect, .w-design-sect, .w-graphic-sect { margin:20px 0 0; text-align:center}
+.box-yellow { padding:50px 30px 10px;}
+.box-yellow p { font-size: 20px; margin: 28px 0 0;}
+.p-detail { margin:0 auto; width: 58%;}
+.p-detail { width: 76%;}
+.p-detail h3 { font-size: 24px;}
+.p-detail1 p { font-size: 18px;}
+.posts div { padding: 10px 19px 10px 28px; overflow-y: scroll;}
+.posts h2 { font-size: 18px; margin: 0 0 5px;}
+.posts p { font-size: 14px;}
+.it-services h2 { font-size:20px;}
+.services { border:none;}
+.footer { background-size:cover;}
+.foot-nav { text-align:center;}
+.copyright-txt { float:none;} 
+
+.media, .media-body { overflow:visible;}
+.txt-right h2 { font-size: 18px; margin: 0 0 10px 0;}
+.txt-right h4 { font-size: 14px; margin: 0 0 10px 0; line-height: 18px;}
+.txt-right p { font-size: 13px ; line-height: 18px;}
+.top-btn-main a { font-size: 22px;}
+.mem-post p { font-size: 11px;}
+.mem-img div { padding: 10px 22px;}
+.mem-img div h3 { font-size: 14px; margin: 0 0 8px 0;}
+.mem-img div p { font-size: 12px; line-height: 11px;}
+.media .pull-left.build-img-bdr.no_float.no_mar { width: 55%;}
+
+.contact-form ul li p { margin-left:10px; font-size: 13px;}
+.contact-form ul li p a { font-size: 12px;}
+.u-name { margin-right: 5px;}
+.feature1 h3 { font-size: 14px;}
+
+
+}
+@media (max-width: 767px) {
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */	
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.top-search { width:60%; margin:10px 0 0 0;}
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:25px; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:16px; padding: 0 5px; margin:2px 0 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 3px 0; font-size:30px; text-shadow:none; padding: 0 10px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 13px; padding: 6px 10px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 100%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+.mid-section { padding: 30px 0}
+.head-txt h3 { font-size: 24px; margin:0 0 5px;}
+.head-txt p { font-size: 18px;}
+.redesign-sect,.w-development-sect,.w-design-sect,.w-graphic-sect { margin:20px 0 0; text-align:center}
+.p-detail { margin:0 auto; width: 58%;}
+.p-detail { width: 90%;}
+.p-detail h3 { font-size: 14px;}
+.box-yellow p { margin: 63px 0 0;}
+.p-detail1 { padding: 11px 20px;}
+.posts div { padding: 10px 19px 10px 28px; overflow-y: scroll;}
+.posts h2 { font-size: 16px; margin: 0 0 5px;}
+.posts p { font-size: 12px;}
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+
+.footer { background-size:cover;}
+.foot-nav { text-align:center;}
+.copyright-txt { text-align:center; float:none;} 
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+
+.no_float { float:none !important;}
+.no_margin { margin:0 !important;} 
+
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+.top-btn-main a { font-size: 26px;}
+.team-intro { margin:0;}
+.txt-right h2 { font-size: 22px; }
+.txt-right h4 { font-size: 16px; line-height: 22px;}
+.bar-progress { margin: 0 0 10px 0;}
+.top-margin { margin:0;}
+.txt-right { margin: 40px 0 0 0;}
+.down-content { margin:0;}
+.mem-post { margin: 10px 0 0;}
+.team-member { margin: 0 0 30px 0;}
+.custom-features { width: 49%; display:inline-block;}
+.team-member .round-container .mem-img { width: 80%; margin: 0 auto;}
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+}
+
+
+@media (max-width: 480px) {
+	
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { float: none; margin: 15px auto 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.mid-heading h1 { font-size: 24px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:0; background:none; padding: 20px 0 0 0; }
+.carousel-caption p { font-size:14px; padding: 0 5px; margin:2px 0;}
+.carousel-caption p.caption1 { margin:6px 0 0;}
+.carousel-caption h3 { margin: 0; font-size:22px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 100%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Mid-Section Starts--------------------------------------------------------------------- */
+.mid-section { padding: 30px 0}
+.head-txt h3 { font-size: 20px; margin:0 0 5px;}
+.head-txt p { font-size: 14px;}
+.redesign-sect, .w-development-sect, .w-design-sect, .w-graphic-sect { margin:20px 0 0; text-align:center}
+.p-detail { margin:0 auto; width: 58%;}
+/* --------------------------------------------------------------Mid-Section Ends--------------------------------------------------------------------- */
+
+.posts div { padding: 10px 19px 10px 28px; overflow-y: scroll;}
+.posts h2 { font-size: 16px; margin: 0 0 5px;}
+.posts p { font-size: 12px;}
+.posts div a { font-size: 12px; padding: 5px 8px;}
+
+.work-heading h3 { font-size: 14px}
+
+.jcarousel-wrapper { padding: 0 40px;}
+.jcarousel ul li { width:auto !important; margin: 0 10px 0 0 ;}
+
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+.folow-sect { margin: 10px 0 0 0;}
+.foot-nav { text-align:center;}
+.foot-nav ul li a { font-size: 12px;}
+.footer { background-size:cover;}
+.copyright-txt { margin: 10px 0 0 0;}
+.s-icons { text-align:center;}
+.foot-nav ul li { margin-left: 8px;}
+.copyright-txt { text-align:center; float:none;} 
+.custum-col { width: 100%;} 
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+
+
+.no_float { float:none !important;}
+.no_margin { margin:0 !important;}
+
+
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+.top-btn-main a { font-size: 20px;}
+.team-intro { margin:0;}
+.txt-right h2 { font-size: 18px; margin: 10px 0;}
+.txt-right h4 { font-size: 13px; margin: 0 0 10px 0;}
+.txt-right p { font-size: 12px; line-height: 16px;}
+.work-heading h3 { margin: 15px 0;}
+.bar-progress { margin: 0 0 10px 0;}
+.top-margin { margin:0;}
+.team-sect { padding: 20px 0;}
+.team-member .round-container .mem-img { margin: 0 auto;}
+.down-content { margin:0;}
+.mem-post { margin: 10px 0 0;}
+.team-member { margin: 0 0 30px 0;}
+
+.mem-img:hover div { left:7%;}
+.mem-img div { padding: 12px 28px; width: 93%;}
+.mem-img div h3 { font-size:14px; margin: 0 0 5px 0;}
+.mem-img div p { line-height:14px; font-size:11px;}
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+.con-map { min-height: 300px;}
+.u-name { width: 100%;}
+.u-email { margin: 20px 0 0 0;}
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+
+ }
+
+@media (max-width: 360px) {
+
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { float: none; margin: 15px auto 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.mid-heading h1 { font-size: 24px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:0; background:none; padding: 10px 0 0 0; }
+.carousel-caption p { font-size:12px; padding: 0 5px; margin:2px 0;}
+.carousel-caption p.caption1 { margin:2px 0;}
+.carousel-caption h3 { margin: 0; font-size:16px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 100%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Mid-Section Starts--------------------------------------------------------------------- */
+.mid-section { padding: 30px 0}
+.head-txt h3 { font-size: 20px; margin:0 0 5px;}
+.head-txt p { font-size: 14px;}
+.redesign-sect, .w-development-sect, .w-design-sect, .w-graphic-sect { margin:20px 0 0; text-align:center}
+.p-detail { margin:0 auto; width: 80%;}
+/* --------------------------------------------------------------Mid-Section Ends--------------------------------------------------------------------- */
+
+.posts div { padding: 10px 19px 10px 28px; overflow-y: scroll;}
+.posts h2 { font-size: 16px; margin: 0 0 5px;}
+.posts p { font-size: 12px;}
+.posts div a { font-size: 12px; padding: 5px 8px;}
+
+.work-heading h3 { font-size: 14px}
+
+.jcarousel-wrapper { padding: 0 40px;}
+.jcarousel ul li { width:auto !important; margin: 0 10px 0 0 ;}
+
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+.folow-sect { margin: 10px 0 0 0;}
+.foot-nav { text-align:center;}
+.foot-nav ul li a { font-size: 11px;}
+.footer { background-size:cover;}
+.copyright-txt { margin: 10px 0 0 0;}
+.s-icons { text-align:center;}
+.foot-nav ul li { margin-left: 8px;}
+.copyright-txt { text-align:center; float:none;} 
+.custum-col { width: 100%;} 
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+
+.no_float { float:none !important;}
+.no_margin { margin:0 !important;}
+
+
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+.top-btn-main a { font-size: 18px;}
+.team-intro { margin:0;}
+.txt-right h2 { font-size: 18px; margin: 10px 0;}
+.txt-right h4 { font-size: 13px; margin: 0 0 10px 0;}
+.txt-right p { font-size: 12px; line-height: 16px;}
+.work-heading h3 { margin: 15px 0;}
+.bar-progress { margin: 0 0 10px 0;}
+.top-margin { margin:0;}
+.team-sect { padding: 20px 0;}
+.team-member .round-container .mem-img { width: 90%; margin: 0 auto;}
+.down-content { margin:0}
+.mem-post { margin: 10px 0 0;}
+.mem-post p { font-size: 13px;}
+.team-member { margin: 0 0 30px 0;}
+.feature1 { padding: 20px 0 0;}
+.feature1 h3 { margin: 10px 0;}
+
+.mem-img:hover div { left:8%;}
+.mem-img div { padding: 30px 25px; width: 95%;}
+.mem-img div h3 { font-size:14px; margin: 0 0 10px 0;}
+.mem-img div p { line-height:16px; font-size:12px;}
+.custom-features { width: 90%; margin: 0 auto;}
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+.con-map { min-height: 300px;}
+.u-name { width: 100%;}
+.u-email { margin: 20px 0 0 0;} 
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+	
+}
+
+  @media (max-width: 320px) { 
+  
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+.logo img { margin: 0 auto;}
+.top-link {margin: 10px 0 0; text-align:center;}
+.navbar-toggle { float: none; margin: 15px auto 0 ; }
+.navigation { margin:0 !important; padding:0 !important;}
+.navigation .nav { float:none; margin:0; text-align:center; content: inherit;}
+.navigation .nav li { margin: 5px 0 0 0;}
+.navigation .nav > li + li:before { content:none;}
+.navigation .nav li a { float:none;}
+.mid-heading h1 { font-size: 24px;}
+/* --------------------------------------------------------------Header Section------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Slider Starts------------------------------------------------------------------------- */
+
+.carousel-caption { left:2%; top:0; background:none; padding: 8px 0 0 0; }
+.carousel-caption p { font-size:10px; padding: 0 5px; margin:0;}
+.carousel-caption p.caption1 { margin:0;}
+.carousel-caption h3 { margin: 0; font-size:14px; text-shadow:none; padding: 0 4px;}
+.carousel-control.left,.carousel-control.right { display:none;}
+.btn-slider a { font-size: 12px; padding: 2px 8px;}
+.btn-slider { left:0; top:77%;}
+.carousel-indicators { bottom: auto; top: 100%;}
+.carousel-indicators li { height: 15px; width: 15px;}
+
+/* --------------------------------------------------------------Slider Ends------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------Mid-Section Starts--------------------------------------------------------------------- */
+.mid-section { padding: 30px 0}
+.head-txt h3 { font-size: 20px; margin:0 0 5px;}
+.head-txt p { font-size: 14px;}
+.redesign-sect, .w-development-sect, .w-design-sect, .w-graphic-sect { margin:20px 0 0; text-align:center}
+.p-detail { margin:0 auto; width: 90%;}
+/* --------------------------------------------------------------Mid-Section Ends--------------------------------------------------------------------- */
+
+.posts div { padding: 10px 19px 10px 28px; overflow-y: scroll;}
+.posts h2 { font-size: 16px; margin: 0 0 5px;}
+.posts p { font-size: 12px;}
+.posts div a { font-size: 12px; padding: 5px 8px;}
+
+.work-heading h3 { font-size: 14px}
+
+.jcarousel-wrapper { padding: 0 40px;}
+.jcarousel ul li { width:auto !important; margin: 0 10px 0 0 ;}
+
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+.folow-sect { margin: 10px 0 0 0;}
+.foot-nav { text-align:center;}
+.foot-nav ul li a { font-size: 11px;}
+.footer { background-size:cover;}
+.copyright-txt { margin: 10px 0 0 0;}
+.s-icons { text-align:center;}
+.foot-nav ul li { margin-left: 8px;}
+.copyright-txt { text-align:center; float:none;}
+.custum-col { width: 100%;} 
+.about-sect,.latest-projects,.contact-info  { margin: 0 0 20px 0;}
+
+/* --------------------------------------------------------------Footer Section------------------------------------------------------------------------ */
+
+
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+.top-btn-main a { font-size: 18px;}
+.team-intro { margin:0; padding: 20px 0;}
+.txt-right h2 { font-size: 18px; margin: 10px 0;}
+.txt-right h4 { font-size: 13px; margin: 0 0 10px 0;}
+.txt-right p { font-size: 12px; line-height: 16px;}
+.work-heading h3 { margin: 15px 0;}
+.bar-progress { margin: 0 0 10px 0;}
+.top-margin { margin:0;}
+.team-sect { padding: 20px 0;}
+.team-member .round-container .mem-img { width: 90%; margin: 0 auto;}
+.down-content { margin:0}
+.mem-post { margin: 10px 0 0;}
+.mem-post p { font-size: 13px;}
+.team-member { margin: 0 0 30px 0;}
+.feature1 { padding: 20px 0 0;}
+.feature1 h3 { margin: 10px 0;}
+
+.mem-img:hover div { left:8%;}
+.mem-img div { padding: 30px 25px; width: 95%;}
+.mem-img div h3 { font-size:14px; margin: 0 0 10px 0;}
+.mem-img div p { line-height:14px; font-size:12px;}
+.custom-features { width: 90%; margin: 0 auto;}
+/* --------------------------------------------------------------About Us------------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+.con-map { min-height: 300px;}
+.u-name { width: 100%;}
+.u-email { margin: 20px 0 0 0;}
+
+/* --------------------------------------------------------------Contact Us------------------------------------------------------------------------ */
+
+}  
